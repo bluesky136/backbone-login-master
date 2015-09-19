@@ -1,3 +1,5 @@
+THIS IS CLONED FOR LEARNING PURPOSES. FULL CREDIT TO AUTHOR AS BELOW:
+
 backbone-login
 ==============
 Best practices & [demo app](http://backbone-login.crunchdevelopment.com) for client-side authentication via Backbone.js AJAX.
