@@ -6,14 +6,16 @@
  * Also signs and unsigns cookies which it uses to persist the client's authentication. 
  * 
 */
+/*added this because the original wouldn't connect*/
 var connect = require('connect');
 var serveStatic = require('serve-static');
 connect().use(serveStatic(__dirname)).listen(8080);
+//
 var express = require('express'),
     http = require('http'),
 	
     config = require("./config"),
-  //  bcrypt = require("bcrypt"),
+    bcrypt = require("bcrypt"),
     sqlite = require("sqlite3"),
     _ = require("underscore"),
 
