@@ -15,7 +15,7 @@ var express = require('express'),
     http = require('http'),
 	
     config = require("./config"),
-    bcrypt = require("bcrypt"),
+   // bcrypt = require("bcrypt"),
     sqlite = require("sqlite3"),
     _ = require("underscore"),
 
