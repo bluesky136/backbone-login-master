@@ -15,7 +15,12 @@ var express = require('express'),
     http = require('http'),
 	
     config = require("./config"),
-    bcrypt = require("bcrypt"),
+ var bcrypt = require('bcrypt');
+	bcrypt.genSalt(10, function(err, salt) {
+    bcrypt.hash('B4c0/\/', salt, function(err, hash) {
+        // Store hash in your password DB.
+    });
+});
     sqlite = require("sqlite3"),
     _ = require("underscore"),
 
