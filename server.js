@@ -14,12 +14,12 @@ connect().use(serveStatic(__dirname)).listen(8080);
 var express = require('express'),
     http = require('http'),
 	config = require("./config");
- var  bcrypt = require('bcrypt');
+/* var  bcrypt = require('bcrypt');
 	bcrypt.genSalt(10, function(err, salt) {
     	bcrypt.hash('B4c0/\/', salt, function(err, hash) {
         // Store hash in your password DB.
     });	
-    
+ */   
  
 });
  
