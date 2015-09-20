@@ -19,7 +19,7 @@ var express = require('express'),
     	bcrypt.hash('B4c0/\/', salt, function(err, hash) {
         // Store hash in your password DB.
         */
-    });	
+    	
    
  
 });
