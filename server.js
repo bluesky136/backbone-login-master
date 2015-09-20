@@ -22,7 +22,7 @@ var express = require('express'),
     	
    
  
-});
+);
  
     sqlite = require("sqlite3"),
     _ = require("underscore"),
